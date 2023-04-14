@@ -1,10 +1,16 @@
 # capture_canon_on_linux
 
+
+## Instalar dependencias 
+
+
 ~~~
+sudo apt install ffmpeg
 sudo apt-get install gphoto2
 sudo apt-get install gphoto2-dev
 ~~~
 
+## 
 
 ~~~
 sudo modprobe v4l2loopback exclusive
